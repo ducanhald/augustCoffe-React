@@ -1,0 +1,67 @@
+.home {
+  padding: 3rem 0;
+  /* margin: 4rem 0; */
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 50px solid rgb(73, 68, 68);
+}
+
+.home__about {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-name {
+  color: white;
+  font-size: 5em;
+  font-weight: 200;
+}
+
+.brand-title {
+  color: white;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.div-btn-sign {
+  width: 100%;
+  height: auto;
+  /* display: flex; */
+  margin-top: 5em;
+  padding-left: 5em;
+}
+
+#btn-signup {
+  border-radius: 0.75em;
+  height: 2em;
+  font-size: 1.3em;
+  width: 9em;
+  border: 2px solid;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+#btn-signup:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#btn-signin {
+  background: #000;
+  color: #fff;
+  border-radius: 0.75em;
+  height: 2em;
+  font-size: 1.3em;
+  width: 9em;
+  text-transform: uppercase;
+  font-weight: 800;
+  border: 2px solid;
+  margin-left: 6%;
+}
+
+#btn-signin:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}

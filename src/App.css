@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(../src/font/Myriad.otf);
+  font-family: Myriad;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--color-page);
+}
+
+::placeholder {
+  color: rgb(189, 159, 159);
+  font-size: 0.8em;
+}
+:root {
+  --main-color: #a3704d;
+  --text-color: #c5c5c5;
+  --color-page: #1a1818;
+  --header-color: #ffff3a;
+  --item-color: #f7e689;
+}
+
+.app {
+  position: relative;
+}
