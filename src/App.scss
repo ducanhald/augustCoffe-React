@@ -1,0 +1,25 @@
+@import "./scss/varibles";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(../src/font/Myriad.otf);
+  font-family: Myriad;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: $page-color;
+}
+
+::placeholder {
+  color: rgb(189, 159, 159);
+  font-size: 0.8em;
+}
+
+.app {
+  position: relative;
+}

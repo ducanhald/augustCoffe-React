@@ -1,5 +1,6 @@
+@import "../../scss/varibles";
 .header {
-  background-color: var(--header-color);
+  background-color: $header-color;
   border-bottom: 50px solid rgb(73, 68, 68);
 }
 .header-flex {
@@ -16,7 +17,7 @@
 }
 .header__user {
   display: flex;
-  color: var(--main-color);
+  color: $main-color;
   justify-content: flex-end;
 }
 .header__user-avatar {
@@ -32,8 +33,8 @@
 .header__user-avatar__authen {
   width: 250px;
   height: 80px;
-  background-color: var(--main-color);
-  color: var(--text-color);
+  background-color: $main-color;
+  color: $text-color;
   flex-direction: column;
   justify-content: center;
   display: none;
@@ -47,7 +48,7 @@
   border-width: 22px 15px;
   border-style: solid;
   position: absolute;
-  border-color: transparent transparent var(--main-color) transparent;
+  border-color: transparent transparent $main-color transparent;
   bottom: 70px;
   right: 0;
 }
@@ -85,8 +86,8 @@
   /* display: none; */
   width: 400px;
   height: 300px;
-  background-color: var(--main-color);
-  color: var(--text-color);
+  background-color: $main-color;
+  color: $text-color;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -101,7 +102,7 @@
   border-width: 22px 15px;
   border-style: solid;
   position: absolute;
-  border-color: transparent transparent var(--main-color) transparent;
+  border-color: transparent transparent $main-color transparent;
   top: -35px;
   right: 0;
 }
@@ -110,7 +111,7 @@
 
 .s-icon-menu {
   font-size: 4em;
-  color: var(--main-color);
+  color: $main-color;
   display: none;
 }
 
@@ -136,11 +137,11 @@
 
 .nav > li {
   display: inline;
-  color: var(--main-color);
+  color: $main-color;
 }
 
 .nav > li > a {
-  color: var(--main-color);
+  color: $main-color;
   text-decoration: none;
   font-size: 2rem;
   padding: 0 15px;

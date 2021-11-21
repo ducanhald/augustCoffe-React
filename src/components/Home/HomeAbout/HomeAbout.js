@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SignUp from "../../../modal/SignUp/SignUp";
-import HomeAboutCss from "./HomeAbout.css";
+import "./HomeAbout.css";
 function HomeAbout() {
   const [toggle, setToggle] = useState(false);
   const handleSignUp = () => {

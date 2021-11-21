@@ -1,7 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @font-face {
@@ -11,21 +12,30 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: var(--color-page);
+  background: #1a1818;
+}
+
+::-webkit-input-placeholder {
+  color: #bd9f9f;
+  font-size: 0.8em;
+}
+
+:-ms-input-placeholder {
+  color: #bd9f9f;
+  font-size: 0.8em;
+}
+
+::-ms-input-placeholder {
+  color: #bd9f9f;
+  font-size: 0.8em;
 }
 
 ::placeholder {
-  color: rgb(189, 159, 159);
+  color: #bd9f9f;
   font-size: 0.8em;
-}
-:root {
-  --main-color: #a3704d;
-  --text-color: #c5c5c5;
-  --color-page: #1a1818;
-  --header-color: #ffff3a;
-  --item-color: #f7e689;
 }
 
 .app {
   position: relative;
 }
+/*# sourceMappingURL=App.css.map */
