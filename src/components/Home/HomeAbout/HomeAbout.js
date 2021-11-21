@@ -6,6 +6,9 @@ function HomeAbout() {
   const handleSignUp = () => {
     setToggle(!toggle);
   };
+  const handleSignIn = () => {
+    console.log("đăng nhập");
+  };
   return (
     <div>
       <div className="home__about col l-7">
@@ -24,7 +27,9 @@ function HomeAbout() {
           <button onClick={handleSignUp} id="btn-signup">
             Đăng Ký
           </button>
-          <button id="btn-signin">Đăng Nhập</button>
+          <button onClick={handleSignIn} id="btn-signin">
+            Đăng Nhập
+          </button>
           {toggle && <SignUp />}
         </div>
       </div>

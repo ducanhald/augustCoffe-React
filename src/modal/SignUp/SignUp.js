@@ -1,5 +1,5 @@
-import SignUpCss from "./SignUp.css";
-import SignInCss from "../SignIn/SignIn.css";
+import SignUpCss from "./SingUp.css";
+import SignInCss from "../SignIn/SingIn.css";
 import { useState } from "react";
 function SignUp() {
   const [show, setShow] = useState(true);

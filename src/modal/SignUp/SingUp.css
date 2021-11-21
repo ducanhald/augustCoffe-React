@@ -1,0 +1,154 @@
+.heading-signup {
+  margin-bottom: 20px;
+}
+
+.modal-signup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal-signup-container {
+  text-align: center;
+  background-color: white;
+  width: 42.5em;
+  max-width: calc(100% - 32px);
+  min-height: 46em;
+  position: relative;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.form-signup {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.info-signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.username-signup,
+.birth-signup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+}
+
+.birth-signup {
+  margin-left: 1em;
+}
+
+.label-email-signup,
+.label-username-signup,
+.label-birth-signup,
+.label-password-signup,
+.label-password-signup {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 1.2em;
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+.input-email-signup,
+.input-username,
+.input-birth-signup,
+.input-password-signup,
+.input-password-signup,
+.btn-login-signup {
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding-left: 20px;
+  font-size: 1.2em;
+  height: 2.5rem;
+  margin-top: 6px;
+}
+
+.input-username::-webkit-input-placeholder,
+.input-email-signup::-webkit-input-placeholder,
+.input-birth-signup::-webkit-input-placeholder,
+.input-password-signup::-webkit-input-placeholder,
+.input-password-signup::-webkit-input-placeholder {
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+.input-username:-ms-input-placeholder,
+.input-email-signup:-ms-input-placeholder,
+.input-birth-signup:-ms-input-placeholder,
+.input-password-signup:-ms-input-placeholder,
+.input-password-signup:-ms-input-placeholder {
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+.input-username::-ms-input-placeholder,
+.input-email-signup::-ms-input-placeholder,
+.input-birth-signup::-ms-input-placeholder,
+.input-password-signup::-ms-input-placeholder,
+.input-password-signup::-ms-input-placeholder {
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+.input-username::placeholder,
+.input-email-signup::placeholder,
+.input-birth-signup::placeholder,
+.input-password-signup::placeholder,
+.input-password-signup::placeholder {
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+.btn-login-signup {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #280097;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-login-signup .btn-login-signin:hover {
+  opacity: 0.8;
+}
+
+.close-signup {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=SingUp.css.map */
