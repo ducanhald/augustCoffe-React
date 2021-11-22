@@ -1,0 +1,26 @@
+.product-category {
+  border-left: 2px solid black;
+}
+
+.product-category ul li {
+  list-style: none;
+}
+
+.product-category ul li a {
+  text-decoration: none;
+  color: #1a1818;
+}
+
+.product-category__item {
+  margin-top: 20px;
+  border-bottom: 2px solid black;
+  height: 40px;
+  cursor: pointer;
+}
+
+.product-category__item:hover {
+  opacity: 0.8;
+  -webkit-transform: translateX(2px);
+          transform: translateX(2px);
+}
+/*# sourceMappingURL=Category.css.map */

@@ -1,0 +1,53 @@
+{
+    "cfNguyenHat":[
+      {
+        "id": 1,
+        "name" : "Cà Phê Nguyên Hạt Trung Nguyên",
+        "img": "https://drive.gianhangvn.com/image/ca-phe-chinh-phuc-chu-s-trung-nguyen-281603j12208x3.jpg",
+          "priceOld" : 120000,
+        "priceCurrent" : 90000,
+        "quantity" : 100  
+      },
+      {
+        "id": 2,
+        "name" : "Cà Phê Nguyên Hạt Trung Nguyên",
+        "img": "https://drive.gianhangvn.com/image/ca-phe-lon-lon-trung-nguyen-premium-blend-425gr-528825j12208x3.jpg",
+          "priceOld" : 180000,
+        "priceCurrent" : 140000,
+        "quantity" : 100  
+      },
+      {
+        "id": 3,
+        "name" : "Cà Phê Nguyên Hạt Trung Nguyên",
+        "img": "https://drive.gianhangvn.com/image/ca-phe-phin-gourmet-blend-trung-nguyen-hop-500gram-775267j12208x3.jpg",
+          "priceOld" : 160000,
+        "priceCurrent" : 120000,
+        "quantity" : 100  
+      },
+      {
+        "id": 4,
+        "name" : "Cà Phê Nguyên Hạt Trung Nguyên",
+        "img": "https://drive.gianhangvn.com/image/ca-phe-lon-lon-trung-nguyen-premium-blend-425gr-528825j12208x3.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      }
+
+      
+    ],
+    "mayPhaCaPhe":[
+      {
+        "id": 1,
+        "name" : "Máy pha cà phê 1",
+        "price" : {
+          "price-old" : 1200000,
+        "price-current" : 800000
+        },
+        "brand" : " Samsung",
+        "origin-name" : "Hàn quốc",
+        "quantity" : 100  
+      }
+    ]
+
+    
+  }

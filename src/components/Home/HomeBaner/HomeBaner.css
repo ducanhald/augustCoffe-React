@@ -1,0 +1,22 @@
+.home {
+  padding: 3rem 0;
+  /* margin: 4rem 0; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-bottom: 50px solid #494444;
+}
+
+.home__banner {
+  width: 100%;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.img-lycf {
+  height: auto;
+  max-width: 100%;
+}
+/*# sourceMappingURL=HomeBaner.css.map */

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,QAAQ,CAAC;EACP,UAAU,ECCG,OAAO;EDApB,WAAW,EAAE,IAAI;CAClB",
+    "sources": [
+        "Product.scss",
+        "../../scss/_varibles.scss"
+    ],
+    "names": [],
+    "file": "Product.css"
+}

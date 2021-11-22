@@ -1,0 +1,17 @@
+@import "../../../scss/varibles";
+.product-filter {
+  display: flex;
+  height: 4rem;
+  border-bottom: 1px solid rgb(104, 95, 95);
+  padding-bottom: 10px;
+  font-size: 1.4rem;
+}
+.product-filter__item {
+  margin-right: 1.6rem;
+}
+.product-filter__item:hover,
+.product-filter__item.active {
+  font-weight: bold;
+  border-bottom: 5px solid rgb(104, 95, 95);
+  cursor: pointer;
+}
