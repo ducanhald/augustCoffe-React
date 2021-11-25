@@ -38,7 +38,7 @@
   line-height: 1.8rem;
   height: 3.6rem;
   overflow: hidden;
-  color: $main-color;
+  color: $page-color;
   text-decoration: none;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -54,6 +54,7 @@
 .product-item__price-old {
   color: rgba(80, 77, 77, 0.5);
   text-decoration: line-through;
+  font-size: 1.2rem;
 }
 
 .product-item__price-current {
@@ -155,6 +156,8 @@ i.product-item__like-icon-fill {
   font-size: 1.2rem;
   text-align: center;
   line-height: 1.4rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-item__sale-off::after {

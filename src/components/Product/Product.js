@@ -21,7 +21,6 @@ function Product() {
     setActive(id);
     setType(tabs[id]);
   };
-  console.log(type);
   // Call api
   useEffect(() => {
     fetch(`http://localhost:3000/${type}`)
@@ -33,7 +32,7 @@ function Product() {
 
   return (
     <div className="product">
-      <div class="grid wide" id="product">
+      <div className="grid wide" id="product">
         <div className="row">
           {/* Category */}
           <div className="col l-2 c-4 product-category">
@@ -53,18 +52,18 @@ function Product() {
                     onClick={() => {
                       handleActive(index);
                     }}
-                    class="product-category__item"
+                    className="product-category__item"
                   >
                     <a href="#home">{item}</a>
-                    <i class="fas fa-chevron-right"></i>
+                    <i className="fas fa-chevron-right"></i>
                   </li>
                 ))}
               </ul>
             </nav>
           </div>
-          <div class="col l-10 c-12">
+          <div className="col l-10 c-12">
             <Filter />
-            <div class="row product-list">
+            <div className="row product-list">
               {products.map((item) => (
                 <Item
                   key={item.id}

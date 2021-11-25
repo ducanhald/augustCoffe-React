@@ -1,4 +1,5 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 import logo from "../../asset/imgs/logo.png";
 // import { useState } from "react";
 function Header() {
@@ -13,7 +14,9 @@ function Header() {
         <nav className="header__menu">
           <ul className="nav">
             <li>
-              <a href="#product">Trang chủ</a>
+              <Link className="link-df" to="/">
+                Trang chủ
+              </Link>
             </li>
             <li>
               <a href="#product">Sản Phẩm</a>
@@ -36,7 +39,9 @@ function Header() {
               </div>
               <div className="header__user-avatar-login">
                 <i className="fas fa-sign-in-alt"></i>
-                <a href="w">Đăng nhập</a>
+                <Link className="link-df" to="/login">
+                  Đăng Nhập
+                </Link>
               </div>
             </div>
           </div>

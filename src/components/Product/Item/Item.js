@@ -9,9 +9,11 @@ function Item(item) {
             <div className="product-item__content">
               <p className="product-item__name">{item.name}</p>
               <div className="product-item__price">
-                <span className="product-item__price-old">{item.priceOld}</span>
+                <span className="product-item__price-old">
+                  {item.priceOld}đ
+                </span>
                 <span className="product-item__price-current">
-                  {item.priceCurrent}
+                  {item.priceCurrent} đ
                 </span>
               </div>
               <div className="product-item__action">

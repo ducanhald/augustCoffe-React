@@ -3,8 +3,8 @@ import HomeBaner from "./HomeBaner/HomeBaner";
 function Home() {
   return (
     <div className="home">
-      <div class="grid wide">
-        <div class="row">
+      <div className="grid wide">
+        <div className="row">
           <HomeAbout />
           <HomeBaner />
         </div>

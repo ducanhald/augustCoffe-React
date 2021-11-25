@@ -1,0 +1,170 @@
+.signin-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #fff;
+}
+
+.title-signin,
+.title-signup {
+  font-size: 2em;
+}
+
+.form-signin {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.label-email-signin,
+.label-password-signin {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 1.2em;
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.reset-pass {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding-left: 20px;
+}
+
+.input-email-signin,
+.input-password-signin {
+  height: 3em;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding-left: 20px;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.input-email-signin::-webkit-input-placeholder,
+.input-password-signin::-webkit-input-placeholder {
+  font-size: 1em;
+}
+
+.input-email-signin:-ms-input-placeholder,
+.input-password-signin:-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.input-email-signin::-ms-input-placeholder,
+.input-password-signin::-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.input-email-signin::placeholder,
+.input-password-signin::placeholder {
+  font-size: 1em;
+}
+
+.btn-login-signin {
+  height: 3em;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding-left: 20px;
+  font-size: 1em;
+}
+
+.input-email-signin::-webkit-input-placeholder {
+  font-size: 1em;
+}
+
+.input-email-signin:-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.input-email-signin::-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.input-email-signin::placeholder {
+  font-size: 1em;
+}
+
+.btn-login-signin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #6b6666;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+  width: 100%;
+}
+
+.btn-login-signin:hover {
+  opacity: 0.8;
+}
+
+.btn-login-signin:hover {
+  opacity: 0.8;
+}
+
+.sign-withgg,
+.sign-withfb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 2.5em;
+  border: 1px solid #696161;
+  border-radius: 30px;
+  line-height: 2.5em;
+  cursor: pointer;
+  min-width: 15rem;
+}
+
+.sign-withgg i,
+.sign-withfb i {
+  margin-right: 20px;
+}
+
+.sign-withgg:hover,
+.sign-withfb:hover {
+  opacity: 0.7;
+}
+
+.login-ref {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=Login.css.map */

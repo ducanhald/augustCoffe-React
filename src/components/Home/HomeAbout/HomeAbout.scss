@@ -42,8 +42,10 @@
   font-weight: 800;
   &:hover {
     background-color: #000;
-    color: #fff;
     cursor: pointer;
+    .link-df {
+      color: $white-color;
+    }
   }
 }
 
@@ -67,4 +69,8 @@
     color: #000;
     cursor: pointer;
   }
+}
+.link-df {
+  text-decoration: none;
+  color: rgb(73, 68, 68);
 }

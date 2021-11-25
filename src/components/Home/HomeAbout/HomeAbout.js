@@ -1,10 +1,10 @@
-import { useState } from "react";
-import SignUp from "../../../modal/SignUp/SignUp";
+import { Link } from "react-router-dom";
+
 import "./HomeAbout.css";
 function HomeAbout() {
-  const [toggle, setToggle] = useState(false);
+  // const [toggle, setToggle] = useState(false);
   const handleSignUp = () => {
-    setToggle(!toggle);
+    console.log("Đăng Ký");
   };
   const handleSignIn = () => {
     console.log("đăng nhập");
@@ -24,12 +24,15 @@ function HomeAbout() {
       </p>
       <div className="div-btn-sign">
         <button onClick={handleSignUp} id="btn-signup">
-          Đăng Ký
+          <Link className="link-df" to="/signup">
+            Đăng Ký
+          </Link>
         </button>
         <button onClick={handleSignIn} id="btn-signin">
-          Đăng Nhập
+          <Link className="link-df" to="/login">
+            Đăng Nhập
+          </Link>
         </button>
-        {toggle && <SignUp />}
       </div>
     </div>
   );

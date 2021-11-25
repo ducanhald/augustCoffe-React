@@ -51,8 +51,11 @@
 
 #btn-signup:hover {
   background-color: #000;
-  color: #fff;
   cursor: pointer;
+}
+
+#btn-signup:hover .link-df {
+  color: #fff;
 }
 
 #btn-signin {
@@ -72,5 +75,10 @@
   background-color: #fff;
   color: #000;
   cursor: pointer;
+}
+
+.link-df {
+  text-decoration: none;
+  color: #494444;
 }
 /*# sourceMappingURL=HomeAbout.css.map */

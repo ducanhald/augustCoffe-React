@@ -1,34 +1,8 @@
-.modal-signin {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  align-items: center;
-  justify-content: center;
-  display: none;
-}
-
-.modal-signin.open {
+@import "../../scss/varibles";
+.signin-container {
   display: flex;
-}
-
-.modal-signin-container {
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-  width: 30em;
-  max-width: calc(100% - 64px);
-  min-height: 80vh;
-  position: relative;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.heading-signin,
-.heading-signin {
-  width: 100%;
-  margin-bottom: 20px;
+  flex-direction: column;
+  color: $white-color;
 }
 
 .title-signin,
@@ -37,13 +11,6 @@
 }
 
 .title-mini-signin {
-}
-
-.title-logo-signin,
-.title-logo-signup {
-  font-size: 3rem;
-  font-weight: bold;
-  color: var(--page-color);
 }
 
 .form-signin {
@@ -60,7 +27,10 @@
   margin-top: 12px;
   padding-left: 20px;
 }
-
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
 .reset-pass {
   align-self: flex-start;
   padding-left: 20px;
@@ -74,6 +44,9 @@
   padding-left: 20px;
   font-size: 1em;
   margin-top: 10px;
+  &::placeholder {
+    font-size: 1em;
+  }
 }
 
 .btn-login-signin {
@@ -89,37 +62,42 @@
 .btn-login-signin {
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: rgb(40, 0, 151);
+  background-color: rgb(107, 102, 102);
   font-weight: bold;
   color: #fff;
   cursor: pointer;
   width: 100%;
+  &:hover {
+    opacity: 0.8;
+  }
 }
 
 .btn-login-signin:hover {
   opacity: 0.8;
 }
-
-.signup-withfb,
-.signup-withgg {
+.sign-withgg,
+.sign-withfb {
+  display: flex;
   margin-top: 20px;
-  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 2.5em;
-  width: 50%;
-  min-width: 12em;
-  border: 1px solid #000;
+  border: 1px solid rgb(105, 97, 97);
   border-radius: 30px;
   line-height: 2.5em;
   cursor: pointer;
-  width: 100%;
+  min-width: 15rem;
+  i {
+    margin-right: 20px;
+  }
+  &:hover {
+    opacity: 0.7;
+  }
 }
-
-.signup-withfb {
-}
-
-.close-signin {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
+.login-ref {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

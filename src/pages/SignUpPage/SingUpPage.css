@@ -1,34 +1,29 @@
-.heading-signup {
-  margin-bottom: 20px;
-}
-
-.modal-signup {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.4);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.signup-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.modal-signup-container {
-  text-align: center;
-  background-color: white;
-  width: 42.5em;
-  max-width: calc(100% - 32px);
-  min-height: 46em;
-  position: relative;
-  border-radius: 10px;
-  padding: 10px;
+.heading-signup {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .form-signup {
@@ -132,23 +127,71 @@
   line-height: 100%;
 }
 
+.signup-withgg,
+.signup-withfb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 2.5em;
+  border: 1px solid #696161;
+  border-radius: 30px;
+  line-height: 2.5em;
+  cursor: pointer;
+  min-width: 15rem;
+}
+
+.signup-withgg i,
+.signup-withfb i {
+  margin-right: 20px;
+}
+
+.signup-withgg:hover,
+.signup-withfb:hover {
+  opacity: 0.7;
+}
+
 .btn-login-signup {
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #280097;
+  background-color: #6b6666;
   font-weight: bold;
   color: #fff;
   cursor: pointer;
+  width: 100%;
+}
+
+.btn-login-signup:hover {
+  opacity: 0.8;
+}
+
+.rules-signup {
+  margin-top: 10px;
 }
 
 .btn-login-signup .btn-login-signin:hover {
   opacity: 0.8;
 }
 
-.close-signup {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
+.sign-up-ref {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-/*# sourceMappingURL=SingUp.css.map */
+/*# sourceMappingURL=SingUpPage.css.map */
