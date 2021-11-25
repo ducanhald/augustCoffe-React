@@ -1,0 +1,134 @@
+{
+    "cfNguyenHat":[
+      {
+        "id": 1,
+        "name" : "Cà Phê Nguyên Hạt Superman",
+        "img": "https://drive.gianhangvn.com/image/ca-phe-chinh-phuc-chu-s-trung-nguyen-281603j12208x3.jpg",
+          "priceOld" : 120000,
+        "priceCurrent" : 90000,
+        "quantity" : 100  
+      },
+      {
+        "id": 2,
+        "name" : "Cà Phê Nguyên Hạt Trung Nguyên",
+        "img": "https://drive.gianhangvn.com/image/ca-phe-lon-lon-trung-nguyen-premium-blend-425gr-528825j12208x3.jpg",
+          "priceOld" : 180000,
+        "priceCurrent" : 140000,
+        "quantity" : 100  
+      },
+      {
+        "id": 3,
+        "name" : "Cà Phê Nguyên Hạt No.1",
+        "img": "https://drive.gianhangvn.com/image/ca-phe-phin-gourmet-blend-trung-nguyen-hop-500gram-775267j12208x3.jpg",
+          "priceOld" : 160000,
+        "priceCurrent" : 120000,
+        "quantity" : 100  
+      },
+      {
+        "id": 4,
+        "name" : "Cà Phê Nguyên Hạt Brushiono",
+        "img": "https://procaffe.vn/wp-content/uploads/2016/11/procaffe-decafeinated-300x300.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      }    
+    ],
+    "cfRangXay":[
+      {
+        "id": 1,
+        "name" : "Cà Phê Rang Xay Opticano",
+        "img": "https://procaffe.vn/wp-content/uploads/2020/10/Cafe-Heritage-Hanh-trinh-H8000-200x200.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      },{
+        "id": 2,
+        "name" : "Cà Phê Rang Xay Truyền Thống",
+        "img": "https://procaffe.vn/wp-content/uploads/2018/01/gimoka-soave-decaffeinato-55gr-2-200x200.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      },{
+        "id": 3,
+        "name" : "Cà Phê Rang Xay Gimoka",
+        "img": "https://procaffe.vn/wp-content/uploads/2018/01/gimoka-soave-decaffeinato-55gr-2-200x200.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      },{
+        "id": 4,
+        "name" : "Cà Phê Rang Xay No.1",
+        "img": "https://procaffe.vn/wp-content/uploads/2020/03/gimoka-cremoso-200x200.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      }
+    ]
+    ,
+    "MayPhaCaPhe":[
+      {
+        "id": 1,
+        "name" : "Máy Pha Cà Phê Leli Bianca",
+        "img": "https://procaffe.vn/wp-content/uploads/2021/05/may-pha-ca-phe-lelit-bianca.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      },
+      {
+        "id": 2,
+        "name" : "Máy Pha Cà Phê Trung Nguyên",
+        "img": "https://procaffe.vn/wp-content/uploads/2017/09/gaggia-anima-prestige-5-200x200.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      },{
+        "id": 3,
+        "name" : "Máy Pha Cà Phê Trung Nguyên",
+        "img": "https://procaffe.vn/wp-content/uploads/2021/05/Viva-Style.jpg.webp",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      },
+      {
+        "id": 4,
+        "name" : "Máy Pha Cà Phê Trung Nguyên",
+        "img": "https://procaffe.vn/wp-content/uploads/2018/01/gaggia-classic-pro-new.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      }
+    ],
+    "DungCuKhac" :[
+      {
+        "id": 1,
+        "name" : "Dụng cụ 1",
+        "img": "https://procaffe.vn/wp-content/uploads/2016/08/bialetti-moka-induction-black-4-cup.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      }, {
+        "id": 2,
+        "name" : "Dụng cụ 1",
+        "img": "https://procaffe.vn/wp-content/uploads/2017/02/vitamix-vita-prep-3-300x300.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      }, {
+        "id": 3,
+        "name" : "Dụng cụ 1",
+        "img": "https://procaffe.vn/wp-content/uploads/2020/04/gaggia-besana-200x200.png",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      }, {
+        "id": 4,
+        "name" : "Máy xay Mita",
+        "img": "https://procaffe.vn/wp-content/uploads/2017/02/vitamix-touchgo-2-blending-station-300x300.jpg",
+          "priceOld" : 100000,
+        "priceCurrent" : 80000,
+        "quantity" : 100  
+      }
+    ]
+
+    
+  }
