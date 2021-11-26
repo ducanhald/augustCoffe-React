@@ -1,10 +1,15 @@
 @import "../../scss/varibles";
+
 .signin-container {
   display: flex;
   flex-direction: column;
   color: $white-color;
 }
-
+.back-to-home {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: $brown-color;
+}
 .title-signin,
 .title-signup {
   font-size: 2em;
@@ -33,7 +38,12 @@
 }
 .reset-pass {
   align-self: flex-start;
-  padding-left: 20px;
+  padding: 5px 0 0 20px;
+  a {
+    color: $brown-color;
+    text-decoration: none;
+    font-style: italic;
+  }
 }
 
 .input-email-signin,
@@ -100,4 +110,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.to-register {
+  margin-top: 10px;
+  a {
+    color: $brown-color;
+  }
 }

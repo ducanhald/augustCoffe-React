@@ -31,4 +31,38 @@ body {
 .app {
   position: relative;
 }
+
+/* Reponsive */
+/* PC */
+/* Tablet */
+/* Mobile */
+/* Mobile-tablet */
+@media (max-width: 63.9375em) {
+  .header__menu {
+    display: none;
+  }
+  .header__user {
+    display: none;
+  }
+  .header-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .product-category {
+    display: none;
+  }
+  .home {
+    padding: 0 20px;
+  }
+  .product {
+    padding: 0 20px;
+  }
+  .product-filter {
+    height: 6rem;
+  }
+}
 /*# sourceMappingURL=App.css.map */

@@ -3,7 +3,7 @@
   background-color: $header-color;
   border-bottom: 50px solid rgb(73, 68, 68);
 }
-.header-flex {
+.header-content {
   display: flex;
   padding-top: 2em;
 }
@@ -117,6 +117,7 @@
 
 .header__menu {
   padding-left: 1em;
+  flex: 1;
   /* display: flex; */
   height: 5.625em;
   /* width: 68%; */
@@ -155,6 +156,6 @@
 .header__user {
   height: 5.625em;
   text-align: right;
-  flex: 1;
+
   justify-self: end;
 }

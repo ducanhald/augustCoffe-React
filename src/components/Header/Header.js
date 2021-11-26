@@ -2,14 +2,16 @@ import "./Header.css";
 import { Link } from "react-router-dom";
 import logo from "../../asset/imgs/logo.png";
 // import { useState } from "react";
-function Header() {
+function Header(props) {
   //   const [state, setState] = useState("active");
 
   return (
     <div className="header">
-      <div className="grid wide header-flex">
+      <div className="grid wide header-content ">
         <div className="header__logo">
-          <img src={logo} className="header__img-logo" alt="" />
+          <Link to="/">
+            <img src={logo} className="header__img-logo" alt="" />
+          </Link>
         </div>
         <nav className="header__menu">
           <ul className="nav">

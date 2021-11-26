@@ -2,7 +2,11 @@ import "./Login.css";
 import { Link } from "react-router-dom";
 function Login() {
   return (
-    <div className="signin-container l-o-1 l-10 m-o-1 m-10 c-o-1 c-10">
+    <div className="signin-container l-o-3 l-6 m-o-1 m-10 c-o-1 c-10">
+      <Link className="back-to-home" to="/">
+        <i class="fas fa-chevron-left"></i>
+        Back
+      </Link>
       <form action="" method="POST" className="form" id="form-signin">
         <div className="form-group">
           <label htmlFor="" className="label-email-signin">
@@ -43,7 +47,7 @@ function Login() {
         <div className="sign-withfb">
           <i className="fab fa-facebook-f"></i> Đăng nhập bằng Facebook
         </div>
-        <p className="p-register">
+        <p className="to-register">
           Chưa có tài khoản? <Link to="/signup">Đăng kí ngay</Link>
         </p>
       </div>

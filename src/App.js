@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header/Header";
 import Content from "./components/Content/Content";
 import Login from "./pages/LoginPage/Login";
@@ -9,6 +10,7 @@ import Footer from "./pages/Footer/Footer";
 import "./App.css";
 
 import "./font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css";
+import Product from "./components/Product/Product";
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path="/" element={<Content />} />
         <Route path="login" element={<Login />} />
         <Route path="signup" element={<SignUp />} />
+        <Route path="product" element={<Product />} />
       </Routes>
       <Footer />
     </div>

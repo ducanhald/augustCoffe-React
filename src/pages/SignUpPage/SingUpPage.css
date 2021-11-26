@@ -12,6 +12,17 @@
           align-items: center;
 }
 
+.back-to-home {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  color: #696161;
+}
+
+.back-to-home:hover {
+  opacity: 0.9;
+}
+
 .heading-signup {
   margin-bottom: 20px;
   display: -webkit-box;

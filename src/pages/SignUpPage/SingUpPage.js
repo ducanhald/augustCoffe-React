@@ -1,7 +1,12 @@
+import { Link } from "react-router-dom";
 import "./SingUpPage.css";
 function SignUp() {
   return (
     <div className="signup-container l-o-1 l-10 m-o-1 m-10 c-o-1 c-10">
+      <Link className="back-to-home" to="/">
+        <i class="fas fa-chevron-left"></i>
+        Back
+      </Link>
       <div className="form-signup">
         <label htmlFor="" className="label-email-signup">
           Email hoặc Số điện thoại

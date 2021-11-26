@@ -18,3 +18,44 @@ body {
 .app {
   position: relative;
 }
+///reposive
+/* Reponsive */
+/* PC */
+@media (min-width: 64em) {
+}
+
+/* Tablet */
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+}
+
+/* Mobile */
+
+@media (max-width: 46.1875em) {
+}
+
+/* Mobile-tablet */
+@media (max-width: 63.9375em) {
+  .header__menu {
+    display: none;
+  }
+  .header__user {
+    display: none;
+  }
+  .header-content {
+    display: flex;
+    justify-content: center;
+  }
+  .product-category {
+    display: none;
+  }
+  .home {
+    padding: 0 20px;
+  }
+  .product {
+    padding: 0 20px;
+  }
+  .product-filter {
+    height: 6rem;
+  }
+}

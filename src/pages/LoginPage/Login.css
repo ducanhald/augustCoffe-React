@@ -9,6 +9,12 @@
   color: #fff;
 }
 
+.back-to-home {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #696161;
+}
+
 .title-signin,
 .title-signup {
   font-size: 2em;
@@ -47,7 +53,13 @@
 .reset-pass {
   -ms-flex-item-align: start;
       align-self: flex-start;
-  padding-left: 20px;
+  padding: 5px 0 0 20px;
+}
+
+.reset-pass a {
+  color: #696161;
+  text-decoration: none;
+  font-style: italic;
 }
 
 .input-email-signin,
@@ -166,5 +178,13 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.to-register {
+  margin-top: 10px;
+}
+
+.to-register a {
+  color: #696161;
 }
 /*# sourceMappingURL=Login.css.map */

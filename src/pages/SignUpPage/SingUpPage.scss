@@ -5,6 +5,13 @@
   flex-direction: column;
   align-items: center;
 }
+.back-to-home {
+  align-self: start;
+  color: $brown-color;
+  &:hover {
+    opacity: 0.9;
+  }
+}
 .heading-signup {
   margin-bottom: 20px;
   display: flex;

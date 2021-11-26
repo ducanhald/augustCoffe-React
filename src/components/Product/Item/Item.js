@@ -1,7 +1,8 @@
 import "./Item.css";
+
 function Item(item) {
   return (
-    <div className="col l-3 m-6 c-12">
+    <div className="col l-3 m-4 c-12">
       <div className="product-item">
         <div className="product-item">
           <a href="#home" className="product-item__link">

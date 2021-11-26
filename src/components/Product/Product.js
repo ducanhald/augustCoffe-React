@@ -64,8 +64,9 @@ function Product() {
           <div className="col l-10 c-12">
             <Filter />
             <div className="row product-list">
-              {products.map((item) => (
+              {products.map((item, index) => (
                 <Item
+                  id={index}
                   key={item.id}
                   name={item.name}
                   priceOld={item.priceOld}
