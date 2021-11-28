@@ -6,28 +6,35 @@ import Item from "./Item/Item";
 import "./Product.css";
 
 // menu category
+
 const categoryItem = [
   "Cà phê nguyên hạt",
   "Cà phê rang xay",
   "Máy pha cà phê",
   "Dụng cụ khác",
 ];
-const tabs = ["cfNguyenHat", "cfRangXay", "MayPhaCaPhe", "DungCuKhac"];
+const tabs = [
+  "61a380400ddbee6f8b134390",
+  "61a3814d01558c731cca32f3",
+  "61a3819862ed886f91560c50",
+  "61a381c201558c731cca3318",
+];
 function Product() {
   const [active, setActive] = useState(0);
   const [products, setProducts] = useState([]);
-  const [type, setType] = useState("cfNguyenHat");
+  const [type, setType] = useState("61a380400ddbee6f8b134390");
   const handleActive = (id) => {
     setActive(id);
     setType(tabs[id]);
   };
   // Call api
   useEffect(() => {
-    fetch(`http://localhost:3000/${type}`)
+    fetch(`https://api.jsonbin.io/b/${type}`)
       .then((res) => res.json())
       .then((product) => {
         setProducts(product);
-      });
+      })
+      .catch((error) => console.log("get APi fail : " + error.message));
   }, [active]);
 
   return (

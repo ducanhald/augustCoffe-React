@@ -1,11 +1,13 @@
 import "./Item.css";
 
+import { Link } from "react-router-dom";
+
 function Item(item) {
   return (
     <div className="col l-3 m-4 c-12">
       <div className="product-item">
         <div className="product-item">
-          <a href="#home" className="product-item__link">
+          <Link to="/productpages" className="product-item__link">
             <img className="product-item__img" src={item.src} alt={item.name} />
             <div className="product-item__content">
               <p className="product-item__name">{item.name}</p>
@@ -40,10 +42,11 @@ function Item(item) {
                 <span className="product-item__sale-off-label">GIẢM</span>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
   );
 }
+
 export default Item;

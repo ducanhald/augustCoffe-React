@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,eAAe,CAAC;EACd,MAAM,EAAE,KAAK;EACb,gBAAgB,ECEJ,IAAI;EDDhB,KAAK,EAAE,KAAK;CACb",
+    "sources": [
+        "ProductPage.scss",
+        "../../scss/_varibles.scss"
+    ],
+    "names": [],
+    "file": "ProductPage.css"
+}
