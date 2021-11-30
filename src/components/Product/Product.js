@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-// import Category from "./Category/Category";
+
 import Filter from "./Filter/Filter";
-// import data from "../../data/cfNguyenHat.json";
+
 import Item from "./Item/Item";
 import "./Product.css";
 

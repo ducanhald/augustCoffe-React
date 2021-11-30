@@ -1,11 +1,18 @@
 import "./Item.css";
-
 import { Link } from "react-router-dom";
+import { setInfoProduct } from "../../../store/actions";
+import { useStore, actions } from "../../../store";
 
 function Item(item) {
+  const [state, dispatch] = useStore();
+  const { id, name } = state;
+
   return (
     <div className="col l-3 m-4 c-12">
-      <div className="product-item">
+      <div
+        className="product-item"
+        onClick={() => dispatch(actions.setInfoProduct(item))}
+      >
         <div className="product-item">
           <Link to="/productpages" className="product-item__link">
             <img className="product-item__img" src={item.src} alt={item.name} />
