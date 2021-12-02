@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
-
 import Filter from "./Filter/Filter";
-
 import Item from "./Item/Item";
 import "./Product.css";
-
+import { useStore } from "../../store";
 // menu category
 
 const categoryItem = [
@@ -17,7 +15,7 @@ const tabs = [
   "61a380400ddbee6f8b134390",
   "61a3814d01558c731cca32f3",
   "61a3819862ed886f91560c50",
-  "61a381c201558c731cca3318",
+  "61a5cb6901558c731ccb4a9a",
 ];
 function Product() {
   const [active, setActive] = useState(0);
@@ -27,6 +25,8 @@ function Product() {
     setActive(id);
     setType(tabs[id]);
   };
+  const [state, dispatch] = useStore();
+
   // Call api
   useEffect(() => {
     fetch(`https://api.jsonbin.io/b/${type}`)
@@ -61,7 +61,7 @@ function Product() {
                     }}
                     className="product-category__item"
                   >
-                    <a href="#home">{item}</a>
+                    {item}
                     <i className="fas fa-chevron-right"></i>
                   </li>
                 ))}

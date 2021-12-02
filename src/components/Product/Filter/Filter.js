@@ -8,6 +8,9 @@ function Filter() {
   return (
     <div className="col l-10 c-8 m-12">
       <div className="product-filter">
+        <div className="product-menu-mb">
+          <i className="fas fa-bars icon-menu-mb"></i>
+        </div>
         {filter.map((item, index) => {
           return (
             <div

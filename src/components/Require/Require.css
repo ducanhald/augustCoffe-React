@@ -1,0 +1,131 @@
+.require {
+  margin-top: 20px;
+  height: 600px;
+  width: auto;
+  background-color: #ffff3a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.require-content {
+  height: 500px;
+  width: 100%;
+  border-top: 5px dashed white;
+  border-bottom: 5px dashed white;
+}
+
+.require-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.require-form__container {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.require-form__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.require-form__info-input {
+  width: 30%;
+  height: 2rem;
+  margin: 0 1%;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+.require-form__info-input::-webkit-input-placeholder {
+  font-size: 1em;
+}
+
+.require-form__info-input:-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.require-form__info-input::-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.require-form__info-input::placeholder {
+  font-size: 1em;
+}
+
+.require-mess {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.require-mess__input {
+  width: 62%;
+  height: 10rem;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.require-mess__input::-webkit-input-placeholder {
+  font-size: 1em;
+}
+
+.require-mess__input:-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.require-mess__input::-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.require-mess__input::placeholder {
+  font-size: 1em;
+}
+
+.require-title {
+  margin-top: 20px;
+}
+
+.require-depcriptions {
+  margin-top: 20px;
+}
+
+.require-submit {
+  margin-top: 10px;
+  height: 2rem;
+  min-width: 6rem;
+  border-radius: 3px;
+  cursor: pointer;
+  border: 1px solid #a5a0a0;
+}
+
+.require-submit:hover {
+  opacity: 0.8;
+}
+/*# sourceMappingURL=Require.css.map */

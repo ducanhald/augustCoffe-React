@@ -6,13 +6,12 @@ import { useStore, actions } from "../../../store";
 function Item(item) {
   const [state, dispatch] = useStore();
   const { id, name } = state;
-
+  const handleGetItem = (item) => {
+    dispatch(actions.setInfoProduct(item));
+  };
   return (
     <div className="col l-3 m-4 c-12">
-      <div
-        className="product-item"
-        onClick={() => dispatch(actions.setInfoProduct(item))}
-      >
+      <div className="product-item" onClick={() => handleGetItem(item)}>
         <div className="product-item">
           <Link to="/productpages" className="product-item__link">
             <img className="product-item__img" src={item.src} alt={item.name} />
@@ -39,11 +38,6 @@ function Item(item) {
                   <i className="fas fa-star"></i>
                 </div>
               </div>
-              {/* <div className="product-item__origin">
-                <span className="product-item__brand"></span>
-                <i className="fas fa-plus-circle"></i>
-              </div> */}
-
               <div className="product-item__sale-off">
                 <span className="product-item__sale-off-percent">10%</span>
                 <span className="product-item__sale-off-label">GIẢM</span>

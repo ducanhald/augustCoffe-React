@@ -7,11 +7,22 @@
   font-size: 1.4rem;
 }
 .product-filter__item {
-  margin-right: 1.6rem;
+  margin-left: 1.6rem;
+  display: flex;
+  align-items: center;
 }
 .product-filter__item:hover,
 .product-filter__item.active {
   font-weight: bold;
   border-bottom: 5px solid rgb(104, 95, 95);
   cursor: pointer;
+}
+.product-menu-mb {
+  display: none;
+  align-items: center;
+}
+.icon-menu-mb {
+  cursor: pointer;
+  font-size: 2.8rem;
+  line-height: 1.8rem;
 }

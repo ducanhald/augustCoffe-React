@@ -64,5 +64,10 @@ body {
   .product-filter {
     height: 6rem;
   }
+  .product-menu-mb {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import "./ProductPage.css";
 import { useStore } from "../../store";
 function ProductPage() {
   const [state, dispatch] = useStore();
-  console.log(state);
 
   return (
     <div className="detail-product ">
@@ -24,8 +24,20 @@ function ProductPage() {
             <p className="detail-price-old">{state.item.priceOld}đ</p>
             <p className="detail-price-curr">{state.item.priceCurrent}đ</p>
           </div>
+          <div className="detail-add-on">
+            <button className="increase-product">+</button>
+            <h1>1</h1>
+            <button className="reduce-product">-</button>
+          </div>
           <div className="detail-add-product ">
-            <button className="btn-add-product">Thêm Vào Giỏ Hàng</button>
+            <button
+              onClick={() => {
+                console.log(state.item.id);
+              }}
+              className="btn-add-product"
+            >
+              Thêm Vào Giỏ Hàng
+            </button>
           </div>
         </div>
       </div>
