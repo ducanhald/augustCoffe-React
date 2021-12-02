@@ -4,7 +4,20 @@ import "./ProductPage.css";
 import { useStore } from "../../store";
 function ProductPage() {
   const [state, dispatch] = useStore();
-
+  const [counter, setCounter] = useState(1);
+  const handleIncreaseItem = () => {
+    setCounter(counter - 1);
+  };
+  const handleMinusItem = () => {
+    setCounter(counter + 1);
+  };
+  const handleAddToCart = () => {
+    alert(`Đã thêm ${counter} sản phẩm vào giỏ hàng`);
+    setCounter(1);
+  };
+  if (counter < 1) {
+    setCounter(1);
+  }
   return (
     <div className="detail-product ">
       <div className="detail-product-container grid wide row ">
@@ -25,14 +38,28 @@ function ProductPage() {
             <p className="detail-price-curr">{state.item.priceCurrent}đ</p>
           </div>
           <div className="detail-add-on">
-            <button className="increase-product">+</button>
-            <h1>1</h1>
-            <button className="reduce-product">-</button>
+            <button
+              onClick={() => {
+                handleIncreaseItem();
+              }}
+              className="increase-product"
+            >
+              <i class="fas fa-minus"></i>
+            </button>
+            <h1>{counter}</h1>
+            <button
+              onClick={() => {
+                handleMinusItem();
+              }}
+              className="reduce-product"
+            >
+              <i class="fas fa-plus"></i>
+            </button>
           </div>
           <div className="detail-add-product ">
             <button
               onClick={() => {
-                console.log(state.item.id);
+                handleAddToCart();
               }}
               className="btn-add-product"
             >

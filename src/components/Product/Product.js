@@ -42,7 +42,7 @@ function Product() {
       <div className="grid wide" id="product">
         <div className="row">
           {/* Category */}
-          <div className="col l-2 c-4 product-category">
+          <div className="col l-3 c-4 product-category">
             <nav>
               <h3>Danh mục sản phẩm</h3>
               <ul className="product-category__list">
@@ -68,7 +68,7 @@ function Product() {
               </ul>
             </nav>
           </div>
-          <div className="col l-10 c-12">
+          <div className="col l-9 c-12">
             <Filter />
             <div className="row product-list">
               {products.map((item, index) => (

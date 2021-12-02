@@ -1,10 +1,7 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
 import logo from "../../asset/imgs/logo.png";
-// import { useState } from "react";
 function Header(props) {
-  //   const [state, setState] = useState("active");
-
   return (
     <div className="header">
       <div className="grid wide header-content ">
@@ -31,6 +28,14 @@ function Header(props) {
             </li>
           </ul>
         </nav>
+        <div
+          onClick={() => {
+            console.log("Show");
+          }}
+          className="header-menu-mb"
+        >
+          <i className="fas fa-bars icon-menu-mb"></i>
+        </div>
         <div className="header__user">
           <div className="header__user-avatar">
             <i className="fas fa-user"></i>
@@ -50,6 +55,7 @@ function Header(props) {
 
           <div className="header__user-cart">
             <i className="fas fa-shopping-cart"></i>
+
             <div className="header__user-cart__list">
               <p>Chưa có Sản phẩm</p>
               <div className="header__user-cart__items"></div>

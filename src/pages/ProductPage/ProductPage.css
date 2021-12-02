@@ -60,7 +60,7 @@
 
 .btn-add-product {
   height: 3rem;
-  margin-top: 3rem;
+  margin-left: 1rem;
   border-radius: 6px;
   color: #1a1818;
   background-color: #a3704d;
@@ -73,5 +73,30 @@
 .btn-add-product:hover {
   cursor: pointer;
   opacity: 0.9;
+}
+
+.detail-add-on {
+  margin: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.detail-add-on .increase-product,
+.detail-add-on .reduce-product {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+  width: 50px;
+  height: 50px;
+  list-style: 1.4rem;
+  cursor: pointer;
+  background-color: tan;
+  border: none;
+  border-radius: 6px;
+}
+
+.detail-add-on .increase-product:hover,
+.detail-add-on .reduce-product:hover {
+  opacity: 0.8;
 }
 /*# sourceMappingURL=ProductPage.css.map */

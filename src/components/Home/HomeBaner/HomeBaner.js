@@ -17,21 +17,19 @@ function HomeBanner() {
     rtl: true,
   };
   return (
-    <div className="col l-5">
-      <div className="home__banner">
-        <Slider {...settings}>
-          <div>
-            <h3>
-              <img src={ly2} alt="" className="img-lycf" />
-            </h3>
-          </div>
-          <div>
-            <h3>
-              <img src={ly3} alt="" className="img-lycf" />
-            </h3>
-          </div>
-        </Slider>
-      </div>
+    <div className="col l-5 home__banner">
+      <Slider {...settings}>
+        <div>
+          <h3>
+            <img src={ly2} alt="" className="img-lycf" />
+          </h3>
+        </div>
+        <div>
+          <h3>
+            <img src={ly3} alt="" className="img-lycf" />
+          </h3>
+        </div>
+      </Slider>
     </div>
   );
 }

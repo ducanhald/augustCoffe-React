@@ -10,7 +10,7 @@ function Item(item) {
     dispatch(actions.setInfoProduct(item));
   };
   return (
-    <div className="col l-3 m-4 c-12">
+    <div className="col l-3 m-4 c-6">
       <div className="product-item" onClick={() => handleGetItem(item)}>
         <div className="product-item">
           <Link to="/productpages" className="product-item__link">

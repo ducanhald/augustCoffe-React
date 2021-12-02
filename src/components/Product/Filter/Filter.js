@@ -6,7 +6,7 @@ function Filter() {
   const [active, setActive] = useState(0);
 
   return (
-    <div className="col l-10 c-8 m-12">
+    <div className="col l-10 c-12 m-12">
       <div className="product-filter">
         <div className="product-menu-mb">
           <i className="fas fa-bars icon-menu-mb"></i>
