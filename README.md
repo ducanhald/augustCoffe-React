@@ -1,4 +1,4 @@
-Go to my app : augustcf.surge.sh
+Go to my app : https://augustcf.surge.sh/
 
 
 ### `npm start`
