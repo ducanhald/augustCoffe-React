@@ -22,6 +22,9 @@ body {
 /* Reponsive */
 /* PC */
 @media (min-width: 64em) {
+  #btn-signin {
+    margin-left: 0;
+  }
 }
 
 /* Tablet */

@@ -2,7 +2,8 @@
   margin-top: 20px;
   height: 600px;
   width: auto;
-  background-color: #ffff3a;
+  background-color: #000000;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

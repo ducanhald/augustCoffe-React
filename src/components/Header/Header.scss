@@ -1,7 +1,7 @@
 @import "../../scss/varibles";
 .header {
-  background-color: $header-color;
-  border-bottom: 50px solid rgb(73, 68, 68);
+  background-color: $page-color;
+  // border-bottom: 50px solid rgb(73, 68, 68);
 }
 .header-content {
   display: flex;

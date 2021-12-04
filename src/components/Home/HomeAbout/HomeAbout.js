@@ -24,12 +24,12 @@ function HomeAbout() {
       </p>
       <div className="div-btn-sign">
         <button onClick={handleSignUp} id="btn-signup">
-          <Link className="link-df" to="/signup">
+          <Link className="link-df-signup" to="/signup">
             Đăng Ký
           </Link>
         </button>
         <button onClick={handleSignIn} id="btn-signin">
-          <Link className="link-df" to="/login">
+          <Link className="link-df-signin" to="/login">
             Đăng Nhập
           </Link>
         </button>

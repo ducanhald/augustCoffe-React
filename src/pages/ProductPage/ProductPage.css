@@ -1,6 +1,6 @@
 .detail-product {
   color: black;
-  background-color: #1a1818;
+  background-color: #000000;
   margin-top: 3rem;
 }
 
@@ -62,7 +62,7 @@
   height: 3rem;
   margin-left: 1rem;
   border-radius: 6px;
-  color: #1a1818;
+  color: #000000;
   background-color: #a3704d;
   min-width: 10rem;
   font-size: 1rem;

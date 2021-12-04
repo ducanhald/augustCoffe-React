@@ -5,7 +5,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #1a1818;
+  background: #000000;
 }
 
 ::-webkit-input-placeholder {
@@ -34,6 +34,9 @@ body {
 
 /* Reponsive */
 /* PC */
+@media (min-width: 64em) {
+}
+
 /* Tablet */
 /* Mobile */
 @media (max-width: 46.1875em) {
@@ -42,6 +45,9 @@ body {
   }
   .product-filter__item {
     font-size: 1rem;
+  }
+  #btn-signin {
+    margin-left: 0;
   }
 }
 
@@ -63,8 +69,8 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     padding: 20px;
   }
   .product-category {
