@@ -10,7 +10,7 @@
   display: flex;
   padding: 2rem;
   background-color: #fff;
-  border: 1px solid #000;
+  border: 1px solid #000000;
   width: 100%;
 }
 
@@ -38,7 +38,12 @@
           flex-direction: column;
 }
 
+.detail-info__name {
+  font-weight: 700;
+}
+
 .detail-price {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,7 +67,7 @@
   height: 3rem;
   margin-left: 1rem;
   border-radius: 6px;
-  color: #000000;
+  color: #fff;
   background-color: #a3704d;
   min-width: 10rem;
   font-size: 1rem;

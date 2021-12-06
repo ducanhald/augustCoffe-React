@@ -22,9 +22,6 @@ body {
 /* Reponsive */
 /* PC */
 @media (min-width: 64em) {
-  #btn-signin {
-    margin-left: 0;
-  }
 }
 
 /* Tablet */
@@ -35,11 +32,25 @@ body {
 /* Mobile */
 
 @media (max-width: 46.1875em) {
+  .home__about {
+    margin-top: 0;
+  }
   .brand-name {
     font-size: 3.2rem;
   }
   .product-filter__item {
     font-size: 1rem;
+  }
+  #btn-signin {
+    margin: 0;
+  }
+  #btn-signup {
+    margin: 15px 0;
+  }
+  .div-btn-sign {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
   }
 }
 

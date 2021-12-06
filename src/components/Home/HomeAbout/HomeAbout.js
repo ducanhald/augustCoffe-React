@@ -19,8 +19,9 @@ function HomeAbout() {
         cafe giữa đen và trắng, rồi cảm nhận bước chân của thời gian đang đi qua
         kí ức. Để rồi không còn những muộn phiền, chỉ còn trong tim sự bình yên
         đến lạ thường.Để rồi không còn những muộn phiền, chỉ còn trong tim sự
-        bình yên đến lạ thường.Để rồi không còn những muộn phiền, chỉ còn trong
-        tim sự bình yên đến lạ thường.
+        bình yên đến lạ thường.Và nếu vì một lý do nào đó mà bạn không thể đến
+        được với August Coffe, vậy thì ngần ngại gì mà không order cho mình
+        những sản phẩm được chính August Coffe cung cấp.
       </p>
       <div className="div-btn-sign">
         <button onClick={handleSignUp} id="btn-signup">

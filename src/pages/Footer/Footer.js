@@ -4,42 +4,42 @@ function Footer() {
     <div className="footer">
       <div className="grid">
         <div className="row footer-depcriptions">
-          <div className="col l-3 m-3 c-12 footer-depcriptions__content">
+          <div className="col l-3 m-3 c-6 footer-depcriptions__content">
             <div>
               <p>Giới thiệu</p>
               <ul>
                 <li>Our Story</li>
                 <li>Our Website</li>
                 <li>Our Team</li>
-                <li>Our Blog4</li>
+                <li>Our Blog</li>
               </ul>
             </div>
           </div>
-          <div className="col l-3 m-3 c-12 footer-depcriptions__content">
+          <div className="col l-3 m-3 c-6 footer-depcriptions__content">
             <p>Doanh Nghiệp</p>
             <ul>
-              <li>Our Story</li>
-              <li>Our Website</li>
+              <li>Our Company</li>
               <li>Our Team</li>
-              <li>Our Blog4</li>
+              <li>Our Story</li>
+              <li>Our Blog</li>
             </ul>
           </div>
-          <div className="col l-3 m-3 c-12 footer-depcriptions__content">
+          <div className="col l-3 m-3 c-6 footer-depcriptions__content">
             Liên Hệ
             <ul>
               <li>Our Story</li>
               <li>Our Website</li>
               <li>Our Team</li>
-              <li>Our Blog4</li>
+              <li>Our Blog</li>
             </ul>
           </div>
-          <div className="col l-3 m-3 c-12 footer-depcriptions__content">
+          <div className="col l-3 m-3 c-6 footer-depcriptions__content">
             Đăng Ký
             <ul>
               <li>Our Story</li>
               <li>Our Website</li>
               <li>Our Team</li>
-              <li>Our Blog4</li>
+              <li>Our Blog</li>
             </ul>
           </div>
         </div>

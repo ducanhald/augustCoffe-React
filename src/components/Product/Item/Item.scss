@@ -8,12 +8,13 @@
 }
 .product-item {
   display: block;
+
   background-color: $item-color;
   margin-bottom: 30px;
   position: relative;
   border-radius: 3px;
   cursor: pointer;
-  box-shadow: 0 0 2px;
+  box-shadow: 0 0 1px;
   transition: transform linear 0.1s;
   will-change: transform;
 }
@@ -46,6 +47,7 @@
 }
 
 .product-item__price {
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-wrap: wrap;
   font-size: 1.6rem;
@@ -96,7 +98,7 @@ i.product-item__like-icon-fill {
 }
 
 .product-item__star--gold {
-  color: $header-color;
+  color: $star-color;
 }
 
 .product-item__origin {

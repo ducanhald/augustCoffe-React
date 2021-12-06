@@ -1,5 +1,7 @@
 @import "../../scss/varibles";
 .detail-product {
+  // font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
+
   color: black;
   background-color: $page-color;
   margin-top: 3rem;
@@ -8,7 +10,7 @@
   display: flex;
   padding: 2rem;
   background-color: $white-color;
-  border: 1px solid #000;
+  border: 1px solid $page-color;
   width: 100%;
 }
 
@@ -25,8 +27,11 @@
   flex-direction: column;
 }
 .detail-info__name {
+  font-weight: 700;
 }
 .detail-price {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   display: flex;
   margin-top: 3rem;
   width: 100%;
@@ -45,7 +50,7 @@
   height: 3rem;
   margin-left: 1rem;
   border-radius: 6px;
-  color: $page-color;
+  color: $white-color;
   background-color: $main-color;
   min-width: 10rem;
   font-size: 1rem;

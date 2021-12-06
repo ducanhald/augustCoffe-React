@@ -8,13 +8,13 @@
 
 .product-item {
   display: block;
-  background-color: #f7e689;
+  background-color: #c0c0c0;
   margin-bottom: 30px;
   position: relative;
   border-radius: 3px;
   cursor: pointer;
-  -webkit-box-shadow: 0 0 2px;
-          box-shadow: 0 0 2px;
+  -webkit-box-shadow: 0 0 1px;
+          box-shadow: 0 0 1px;
   -webkit-transition: -webkit-transform linear 0.1s;
   transition: -webkit-transform linear 0.1s;
   transition: transform linear 0.1s;
@@ -44,7 +44,7 @@
   line-height: 1.8rem;
   height: 3.6rem;
   overflow: hidden;
-  color: #1a1818;
+  color: #000000;
   text-decoration: none;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -52,6 +52,7 @@
 }
 
 .product-item__price {
+  font-family: Arial, Helvetica, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -102,7 +103,7 @@ i.product-item__like-icon-fill {
 }
 
 .product-item__star--gold {
-  color: #ffff3a;
+  color: #85f827;
 }
 
 .product-item__origin {

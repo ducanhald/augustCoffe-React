@@ -4,6 +4,7 @@ import "./HomeBaner.css";
 import ly1 from "../../../asset/imgs/ly1.png";
 import ly2 from "../../../asset/imgs/ly2.png";
 import ly3 from "../../../asset/imgs/lycf.png";
+
 function HomeBanner() {
   const settings = {
     dots: true,
